@@ -1,0 +1,5 @@
+path: F:\YOLOv8\recon\YOLO训练集  #数据集根目录
+train:  images/train  #训练集图片路径
+val: images/val   #验证集图片路径
+nc: 4     #类别数量
+names: ['白色-人质','红色-敌人','蓝色-敌人','迷彩-友军']    #类别名称
