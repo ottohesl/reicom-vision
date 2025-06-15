@@ -38,7 +38,7 @@ while True:
     # 使用YOLO模型进行目标检测
     results = model.predict(
         source=frame,
-        conf=0.3,  # 置信度阈值
+        conf=0.5,  # 置信度阈值
         iou=0.5,  # IoU阈值
         show=False,
         verbose=False  # 关闭详细输出以提升性能
