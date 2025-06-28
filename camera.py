@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 # 初始化摄像头
-cap = cv2.VideoCapture(1)  # 0表示默认摄像头
+cap = cv2.VideoCapture(0)  # 0表示默认摄像头
 
 # 加载YOLO模型
 model = YOLO('best_more.pt')
